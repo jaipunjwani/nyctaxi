@@ -1,4 +1,5 @@
-# nyctaxi
+# NYC Yellow Taxi Data Analysis 
+My summer work with Microsoft Research's Data Science team in which we analyzed NYC Yellow taxi data and identified movement patterns, inspected driver behavior, and found major potential for carpooling. I will be conducting some more research of my own using the 2013 data set, and will perform similar analyses on the the most recent data set available (2015). 
 ## Prerequisites
 * Download the 2013 taxi data using [this](https://github.com/msr-ds3/nyctaxi/blob/master/exploratory_analysis/download_original_taxidata_2013.sh) shell script.
     * To download the 2015 taxi data (includes both yellow and green taxi data but lacks medallion and hack license info), use [this](https://github.com/msr-ds3/nyctaxi/blob/master/download_taxidata.sh) one. To load in R, use [this](https://github.com/msr-ds3/nyctaxi/blob/master/load_taxi_data.R) script.
